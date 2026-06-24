@@ -1,27 +1,27 @@
 const CACHE_NAME = "milton-store-v1";
 
 const urlsToCache = [
-    "/",
-    "/manifest.json",
+    "./",
+    "manifest.json",
 
-    "/css/style.css",
+    "css/style.css",
 
-    "/js/app.js",
-    "/js/carrito.js",
-    "/js/productos.js",
+    "js/app.js",
+    "js/carrito.js",
+    "js/productos.js",
 
-    "/img/banner.png",
+    "img/banner.png",
 
-    "/img/camisa_adidas.webp",
-    "/img/camisa_nike.jpg",
-    "/img/chaqueta_underarmour.jpg",
-    "/img/pantalon_levis.jfif",
-    "/img/reloj_deportivo.jfif",
-    "/img/zapatos_nike.jfif",
-    "/img/zapatos_pumas.jpg",
+    "img/camisa_adidas.webp",
+    "img/camisa_nike.jpg",
+    "img/chaqueta_underarmour.jpg",
+    "img/pantalon_levis.jfif",
+    "img/reloj_deportivo.jfif",
+    "img/zapatos_nike.jfif",
+    "img/zapatos_pumas.jpg",
 
-    "/img/icon-192.png",
-    "/img/icon-512.png"
+    "img/icon-192.png",
+    "img/icon-512.png"
 ];
 
 self.addEventListener("install", event => {
@@ -49,4 +49,3 @@ self.addEventListener("fetch", event => {
     );
 
 });
-
