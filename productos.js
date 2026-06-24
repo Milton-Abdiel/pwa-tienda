@@ -20,7 +20,7 @@ const productos = [
         nombre: "Chaqueta Under Armour",
         marca: "Under Armour",
         categoria: "Chaquetas",
-        precio: 49.99,
+        precio: 39.99,
         imagen: "chaqueta_underarmour.jpg"
     },
     {
@@ -28,31 +28,31 @@ const productos = [
         nombre: "Pantalón Levi's",
         marca: "Levi's",
         categoria: "Pantalones",
-        precio: 39.99,
+        precio: 34.99,
         imagen: "pantalon_levis.jfif"
     },
     {
         id: 5,
-        nombre: "Reloj Deportivo",
-        marca: "Under Armour",
-        categoria: "Accesorios",
-        precio: 19.99,
-        imagen: "reloj_deportivo.jfif"
-    },
-    {
-        id: 6,
-        nombre: "Zapatos Nike Air",
+        nombre: "Zapatos Nike",
         marca: "Nike",
         categoria: "Zapatos",
-        precio: 79.99,
+        precio: 49.99,
         imagen: "zapatos_nike.jfif"
     },
     {
-        id: 7,
-        nombre: "Zapatos Puma Sport",
+        id: 6,
+        nombre: "Zapatos Puma",
         marca: "Puma",
         categoria: "Zapatos",
-        precio: 64.99,
+        precio: 44.99,
         imagen: "zapatos_pumas.jpg"
+    },
+    {
+        id: 7,
+        nombre: "Reloj Deportivo",
+        marca: "Genérico",
+        categoria: "Accesorios",
+        precio: 19.99,
+        imagen: "reloj_deportivo.jfif"
     }
 ];
