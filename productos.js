@@ -5,7 +5,7 @@ const productos = [
         marca: "Adidas",
         categoria: "Camisas",
         precio: 24.99,
-        imagen: "img/camisa_adidas.webp"
+        imagen: "camisa_adidas.webp"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const productos = [
         marca: "Nike",
         categoria: "Camisas",
         precio: 29.99,
-        imagen: "img/camisa_nike.jpg"
+        imagen: "camisa_nike.jpg"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const productos = [
         marca: "Under Armour",
         categoria: "Chaquetas",
         precio: 49.99,
-        imagen: "img/chaqueta_underarmour.jpg"
+        imagen: "chaqueta_underarmour.jpg"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const productos = [
         marca: "Levi's",
         categoria: "Pantalones",
         precio: 39.99,
-        imagen: "img/pantalon_levis.jfif"
+        imagen: "pantalon_levis.jfif"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const productos = [
         marca: "Under Armour",
         categoria: "Accesorios",
         precio: 19.99,
-        imagen: "img/reloj_deportivo.jfif"
+        imagen: "reloj_deportivo.jfif"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ const productos = [
         marca: "Nike",
         categoria: "Zapatos",
         precio: 79.99,
-        imagen: "img/zapatos_nike.jfif"
+        imagen: "zapatos_nike.jfif"
     },
     {
         id: 7,
@@ -53,6 +53,6 @@ const productos = [
         marca: "Puma",
         categoria: "Zapatos",
         precio: 64.99,
-        imagen: "img/zapatos_pumas.jpg"
+        imagen: "zapatos_pumas.jpg"
     }
 ];
